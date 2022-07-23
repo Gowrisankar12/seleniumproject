@@ -61,7 +61,7 @@ public class Greens {
 		WebElement promo = driver.findElement(By.xpath("//span[text()='GRN10']"));
 		Actions act1=new Actions(driver);
 		act1.doubleClick(promo).perform();
-		
+		System.out.println("hi");
 		
 
 }}
